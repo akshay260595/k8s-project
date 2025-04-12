@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: akshay/newimage:latest
+          image: akshay2605/newimage:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80 # Ensure the container exposes port 80
